@@ -11,14 +11,14 @@
 # -----------------------------------------------------------------------------
 # Pattern: [prefix][app-id][tier][instance][env][sequence]
 # Example: a2026010501n1q01 -> App 2026010501, Non-Prod tier 1, QA env, sequence 01
-tier             = "n"  # n = non-production
-environment_code = "q"  # q = QA
+tier             = "n" # n = non-production
+environment_code = "q" # q = QA
 sequence         = "01"
 
 # -----------------------------------------------------------------------------
 # Environment Settings
 # -----------------------------------------------------------------------------
-environment = "staging"  # Using staging as the closest to QA in the validation
+environment = "staging" # Using staging as the closest to QA in the validation
 location    = "eastus"
 
 # -----------------------------------------------------------------------------

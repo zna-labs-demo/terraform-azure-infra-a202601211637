@@ -11,8 +11,8 @@
 # -----------------------------------------------------------------------------
 # Pattern: [prefix][app-id][tier][instance][env][sequence]
 # Example: a2026010501n1d01 -> App 2026010501, Non-Prod tier 1, Dev env, sequence 01
-tier             = "n"  # n = non-production
-environment_code = "d"  # d = development
+tier             = "n" # n = non-production
+environment_code = "d" # d = development
 sequence         = "01"
 
 # -----------------------------------------------------------------------------

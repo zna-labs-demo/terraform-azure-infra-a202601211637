@@ -14,7 +14,7 @@ resource "azurerm_fake_resource" "demo" {
 
 # BAD - Missing required argument
 resource "azurerm_storage_account" "incomplete" {
-  name                = "stincomplete"
+  name = "stincomplete"
   # Missing: resource_group_name, location, account_tier, account_replication_type
 }
 
