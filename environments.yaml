@@ -31,7 +31,7 @@ environments:
     environment_code: q        # q = qa
     sequence: "01"
     auto_apply: false          # Require manual approval
-    enabled: false             # Enable when ready for QA testing
+    enabled: true             # Enable when ready for QA testing
 
   # ---------------------------------------------------------------------------
   # Production Environment
