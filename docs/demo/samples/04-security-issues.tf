@@ -41,7 +41,7 @@ resource "azurerm_mssql_server" "insecure_sql" {
   location                     = var.location
   version                      = "12.0"
   administrator_login          = "sqladmin"
-  administrator_login_password = "P@ssw0rd123!"  # SECURITY ISSUE: Hardcoded password
+  administrator_login_password = "P@ssw0rd123!" # SECURITY ISSUE: Hardcoded password
 
   # SECURITY ISSUE: Public network access enabled
   public_network_access_enabled = true
